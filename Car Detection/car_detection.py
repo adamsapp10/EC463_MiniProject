@@ -25,7 +25,7 @@ while True:
         current = current + 1    
     if (current>prev):
         count = count + (current- prev)
-    cv2.putText(frame,'Count: %d' %count,(10,500), FONT_HERSHEY_SIMPLEX, 4,(255,255,255),2,cv2.LINE_AA)
+    cv2.putText(frame,'Count: %d' %count,(10,500), cv2.FONT_HERSHEY_SIMPLEX, 4,(255,255,255),2,cv2.LINE_AA)
     prev = current
     #display the resulting frame
     cv2.imshow('video', frame)
