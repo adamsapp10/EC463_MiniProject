@@ -27,5 +27,5 @@ Source: https://drive.google.com/file/d/1hYa5s7fjvQc1S1wRY6GcRqOPwL0Hy_aE/view
 <h2> Contributions </h2>
 
 Pablo Ferreyra: Installed OS and OpenCV on Raspberry Pi, Connected Camera to Pi, Configured SSH <br />
-Adam Saap: Developed and edited script and installed OpenCV
+Adam Saap: Developed and edited the car detection algorithm and installed OpenCV
 </p>
